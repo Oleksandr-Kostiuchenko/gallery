@@ -3,7 +3,7 @@ import axios from "axios";
 import { apiKey } from "./api-key";
 
 //* Get function 
-const getPhotos = async (query, page) => {
+export const getPhotos = async (query, page) => {
     const baseURL = 'https://api.unsplash.com';
     const endpoint = '/search/photos';
 
